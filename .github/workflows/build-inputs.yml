@@ -16,7 +16,7 @@ on:
       alphas:
         description: 'alphas'
         required: false
-        default: 'default'
+        default: 'QWERTY'
         type: choice
         options:
         - "default"
@@ -32,7 +32,7 @@ on:
       nav:
         description: 'nav'
         required: false
-        default: 'default'
+        default: 'vi'
         type: choice
         options:
         - "default"
