@@ -387,7 +387,7 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_APPAD \
-&tog U_APPAD,          &u_to_U_TAP,          &kp SLASH,             &kp ASTRK,                  &kp MINUS,        U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-U_MT(LGUI, LEFT),      U_MT(LALT, UP),       U_MT(LCTRL, DOWN),     U_MT(LSHFT, RIGHT),         &kp PLUS,         &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
-&kp Z,                 &kp X,                &kp C,                 &kp V,                      &kp B,            &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
-U_NP,                  U_NP,                 U_NA,                  U_NA,                       U_NA,             &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+&tog U_APPAD,          &kp SLASH,          &kp ASTRK,             &kp MINUS,                  &kp PLUS,         U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LGUI               U_MT(LALT, LEFT),   U_MT(LCTRL, UP),       U_MT(LSHFT, DOWN),          &kp RIGHT,        &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+&kp Z,                 &kp X,              &kp C,                 &kp V,                      &kp B,            &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
+U_NP,                  U_NP,               U_NA,                  U_NA,                       U_NA,             &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
