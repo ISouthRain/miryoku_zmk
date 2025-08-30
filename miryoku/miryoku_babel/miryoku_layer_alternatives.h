@@ -389,8 +389,8 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 #define MIRYOKU_ALTERNATIVES_APPGAME \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &tog U_APPGAME,    \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_APPAD \
 &tog U_APPAD,          &kp SLASH,          &kp ASTRK,             &kp MINUS,                  &kp PLUS,         U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
