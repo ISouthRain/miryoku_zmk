@@ -1,8 +1,3 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
-/*
-nice_nano_v2
-corne_left,corne_right
-CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_TIMEOUT=20000\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1200000\nCONFIG_ZMK_WIDGET_BATTERY_STATUS_SHOW_PERCENTAGE=y\nCONFIG_ZMK_WIDGET_OUTPUT_STATUS=y
 
-*/
