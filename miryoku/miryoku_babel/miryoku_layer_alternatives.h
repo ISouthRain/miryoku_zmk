@@ -374,8 +374,8 @@ U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_FUN,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPACE,         &kp K_APP,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
-&kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         &tog U_APPAD,      &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          &tog U_APPGAME,    &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         &u_to_U_APPAD,     &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          &u_to_U_APPGAME,   &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
@@ -394,6 +394,6 @@ U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp 
 
 #define MIRYOKU_ALTERNATIVES_APPAD \
 &kp Q,                 &kp COMMA,          &kp DOT,               &kp SLASH,                  &kp T,            U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-U_MT(LGUI, A),         U_MT(LALT, LEFT),   U_MT(LCTRL, UP),       U_MT(LSHFT, DOWN),          &kp RIGHT,        &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+U_MT(LGUI, S),         U_MT(LALT, LEFT),   U_MT(LCTRL, UP),       U_MT(LSHFT, DOWN),          &kp RIGHT,        &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 &kp Z,                 &kp X,              &kp C,                 &kp V,                      &kp B,            &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
 U_NP,                  U_NP,               &kp ESC,               U_LT(U_NUM, SPACE),         U_LT(U_SYM, TAB), &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP

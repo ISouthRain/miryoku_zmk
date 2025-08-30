@@ -10,27 +10,28 @@
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
 MIRYOKU_X(TAP,    "Tap") \
+MIRYOKU_X(APPAD,  "AppAD") \
+MIRYOKU_X(APPGAME,  "AppGame") \
 MIRYOKU_X(BUTTON, "Button") \
 MIRYOKU_X(NAV,    "Nav") \
 MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(APPAD,  "AppAD") \
-MIRYOKU_X(APPGAME,  "AppGame")
+MIRYOKU_X(FUN,    "Fun")
 
+// 数字越低, 等级越高. 只有等级高的 layer 能切换到等级低的, 反之不行
 #define U_BASE   0
 #define U_EXTRA  1
 #define U_TAP    2
-#define U_BUTTON 3
-#define U_NAV    4
-#define U_MOUSE  5
-#define U_MEDIA  6
-#define U_NUM    7
-#define U_SYM    8
-#define U_FUN    9
-#define U_APPAD  10
-#define U_APPGAME 11
+#define U_APPAD  3
+#define U_APPGAME 4
+#define U_BUTTON 5
+#define U_NAV    6
+#define U_MOUSE  7
+#define U_MEDIA  8
+#define U_NUM    9
+#define U_SYM    10
+#define U_FUN    11
 
 #endif
