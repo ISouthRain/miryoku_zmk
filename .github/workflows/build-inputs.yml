@@ -53,7 +53,7 @@ on:
       custom_config:
         description: 'custom_config'
         required: false
-        default: 'default'
+        default: '#define MIRYOKU_TAP_QWERTY'
       kconfig:
         description: 'kconfig'
         required: false
