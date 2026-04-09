@@ -390,7 +390,7 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              &kp LALT,          &kp SPACE,         &kp LSHFT,         &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_APPAD \
 &kp Q,                 &kp COMMA,          &kp DOT,               &kp SLASH,                  &kp T,            U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
