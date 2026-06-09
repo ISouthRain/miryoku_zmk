@@ -386,14 +386,16 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_APPGAME \
-&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp LALT,          &kp SPACE,         &kp LSHFT,         &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
-
 #define MIRYOKU_ALTERNATIVES_APPAD \
 &kp Q,                 &kp COMMA,          &kp DOT,               &kp SLASH,                  &kp T,            U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_MT(LGUI, S),         U_MT(LALT, LEFT),   U_MT(LCTRL, UP),       U_MT(LSHFT, DOWN),          &kp RIGHT,        &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 &kp Z,                 &kp X,              &kp C,                 &kp V,                      &kp B,            &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
 U_NP,                  U_NP,               &kp ESC,               U_LT(U_NUM, SPACE),         U_LT(U_SYM, TAB), &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
+
+#define MIRYOKU_ALTERNATIVES_APPLKWG \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp LALT,          &kp SPACE,         &kp LSHFT,         &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
+
+
