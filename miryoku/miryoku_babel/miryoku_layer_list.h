@@ -12,6 +12,7 @@ MIRYOKU_X(EXTRA,  "Extra") \
 MIRYOKU_X(TAP,    "Tap") \
 MIRYOKU_X(APPAD,  "AppAD") \
 MIRYOKU_X(APPLKWG,  "AppLKWG") \
+MIRYOKU_X(APPCF,  "AppCF") \
 MIRYOKU_X(BUTTON, "Button") \
 MIRYOKU_X(NAV,    "Nav") \
 MIRYOKU_X(MOUSE,  "Mouse") \
@@ -26,12 +27,13 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_TAP    2
 #define U_APPAD  3
 #define U_APPLKWG  4
-#define U_BUTTON 5
-#define U_NAV    6
-#define U_MOUSE  7
-#define U_MEDIA  8
-#define U_NUM    9
-#define U_SYM    10
-#define U_FUN    11
+#define U_APPCF  5
+#define U_BUTTON 6
+#define U_NAV    7
+#define U_MOUSE  8
+#define U_MEDIA  9
+#define U_NUM    10
+#define U_SYM    11
+#define U_FUN    12
 
 #endif

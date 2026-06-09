@@ -375,8 +375,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_FUN \
 &kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         &u_to_U_APPAD,     &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          &u_to_U_APPGAME,   &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
+&kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          &u_to_U_APPLKWG,   &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   &u_to_U_APPCF,     &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
@@ -397,5 +397,11 @@ U_NP,                  U_NP,               &kp ESC,               U_LT(U_NUM, SP
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp LALT,          &kp SPACE,         &kp LSHFT,         &kp RET,           &kp BSPC,          U_LT(U_FUN, DEL),  U_NP,              U_NP
+
+#define MIRYOKU_ALTERNATIVES_APPCF \
+&kp F,             &kp Q,             &kp W,             &kp R,             U_MT(N6, T),       U_MT(TAB, Y),      &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp LCTRL,         &kp A,             &kp S,             &kp D,             U_MT(N5, G),       &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+U_MT(LALT, Z),     U_MT(X, N1),       U_MT(C, N2),       U_MT(V, N3),       U_MT(B, N4),       &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp TAB,           \
+U_NP,              U_NP,              &kp E,             &kp SPACE,         &kp LSHFT,         &kp RET,           &kp BSPC,          U_LT(U_FUN, ESC),  U_NP,              U_NP
 
 
